@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>exactaudiocopy</id>
+    <title>Exact Audio Copy</title>
+    <version>1.0.0.0-beta4</version>
+    <authors>Andre Wiethoff</authors>
+    <owners>Derek Fowler</owners>
+    <summary>Exact Audio Copy is a CD ripper for Windows which produces very accurate rips and has extensive configuration options for quality, output format, tagging, playlists etc.</summary>
+    <description>Exact Audio Copy is a so called audio grabber for audio CDs using standard CD and DVD-ROM drives. 
+	
+With other audio grabbers you usually need to listen to every grabbed wave because they only do jitter correction. Scratched CDs read on CD-ROM drives often produce distortions. But listening to every extracted audio track is a waste of time. 
+	
+Exact Audio Copy conquer these problems by making use of several technologies like multi-reading with verify and AccurateRip.</description>
+    <projectUrl>http://www.exactaudiocopy.org/</projectUrl>
+    <tags>exactaudiocopy audio-cd-ripper audio-cd ripping ripper</tags>
+    <copyright>Andre Wiethoff</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://cdn.rawgit.com/dezfowler/chocolatey-packages/e89c4063339910bbdc6865b176516607610c84f2/icons/ExactAudioCopy.png</iconUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
